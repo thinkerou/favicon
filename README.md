@@ -9,7 +9,7 @@ Gin middleware to support favicon.
 Download and install it:
 
 ```sh
-$ go get github.com/easonlin404/limit
+$ go get github.com/thinkerou/favicon
 ```
 
 Import it in your code:
