@@ -36,7 +36,6 @@ func main() {
         c.String(200, "Hello favicon.")
     })
 
-    r.Run()
-
+    r.Run(":8080")
 }
 ```
