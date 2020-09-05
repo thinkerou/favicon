@@ -47,6 +47,5 @@ func New(path string) gin.HandlerFunc {
 		}
 		c.Header("Content-Type", "image/x-icon")
 		http.ServeContent(c.Writer, c.Request, "favicon.ico", info.ModTime(), reader)
-		return
 	}
 }
