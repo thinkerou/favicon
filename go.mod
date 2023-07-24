@@ -1,4 +1,4 @@
-module github.com/blessedmadukoma/favicon-go
+module github.com/thinkerou/favicon
 
 go 1.20
 
